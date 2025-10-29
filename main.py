@@ -16,7 +16,6 @@ def main():
     
 
     word_length = get_word_count(book_path)
-    letter_count = get_letter_count(book_path)
     sorted_list = character_sorted_list(book_path)
     
     print("============ BOOKBOT ============")
